@@ -27,7 +27,7 @@ const Sidebar = () => {
                 pathName === item.route
                   ? "inset-0 bg-gradient-to-r from-indigo-500 to-purple-500 text-white"
                   : ""
-              } rounded-3xl p-3 flex hover:bg-slate-100 items-center`}
+              } rounded-3xl p-3 flex hover:bg-slate-100 dark:hover:bg-slate-800  items-center`}
               href={item.route}
             >
               <img className="mr-3" src={item.icon} alt="N/A" />
